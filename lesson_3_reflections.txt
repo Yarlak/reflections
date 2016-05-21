@@ -11,4 +11,4 @@ What is the benefit of having a copy of the last known state of the remote store
 	It allows you to know how much you have changed the files since you have last "synced" with the online copy. This might remind you that you should push/pull more often. It also helps GitHub figure out a good starting location when performing the fetch and merge operations.
 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
-	Without GitHub I would probably collaborate on something like DropBox or GoogleDrive. It would be easier to use and we wouldn't have to worry about branches or merge conflicts but it would be less efficient for coding projects.
+	Without GitHub I would probably collaborate on something like DropBox or GoogleDrive. It would be easier to use and we wouldn't have to worry about branches or merge conflicts but it would be less efficient for coding projects. So it would be easier to use another solution if everyone keeps their files updated but it would be harder to view what changes people made and why.
