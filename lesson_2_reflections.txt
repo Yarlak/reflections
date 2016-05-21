@@ -12,3 +12,6 @@ What are some situation when branches would be helpful in keeping your history o
 
 How do diagrams help you visualize the branch structure?
 	Diagrams show me what data can be accessed from different branches. If a commit does not have a branch you must use the commit id to access it because it will not be available from any other branch. Otherwise you can view all the "parents" for each commit and branch using git log.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+	When you merge two branches together you can combine the two most up to date commits of both branches and introduce the changes made by the branches in their final state. Once the branches are merged you can access all the commits from both branches from the newly merged commit. That is why a merged commit shows two branches coming togheter and all the commits connected and able to be accesed (backwards arrows).
