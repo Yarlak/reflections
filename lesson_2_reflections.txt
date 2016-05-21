@@ -15,3 +15,6 @@ How do diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 	When you merge two branches together you can combine the two most up to date commits of both branches and introduce the changes made by the branches in their final state. Once the branches are merged you can access all the commits from both branches from the newly merged commit. That is why a merged commit shows two branches coming togheter and all the commits connected and able to be accesed (backwards arrows).
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+	My understanding is that Git really only cares when new things are added - if they are deleted in one commit but added in another then it thinks its ok to delete in the final. However the text deleted in one commit might be needed in the other commit/branch. However it does speed up the "merging" process when you make this assumption. Automatic merging is faster but more risky that you will mess up the code and manual merging takes a lot of effort but also ensures that the result of the merge is of high quality.
