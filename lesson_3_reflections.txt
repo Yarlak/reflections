@@ -12,3 +12,6 @@ What is the benefit of having a copy of the last known state of the remote store
 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 	Without GitHub I would probably collaborate on something like DropBox or GoogleDrive. It would be easier to use and we wouldn't have to worry about branches or merge conflicts but it would be less efficient for coding projects. So it would be easier to use another solution if everyone keeps their files updated but it would be harder to view what changes people made and why.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefites does each approach have?
+	In my mind people should not be experimenting on the master branch, they should make separate branches and then merge into the master. Then they can get their code working on their branch and then do 1 merge into the Master - otherwise everyone will be updating the master and it might be hard to stay up to date. So making changes in separate branches and updating the master later might keep the master in relatively working condition, however if you only work on the master with no side branches you might not have to worry about complicated Merging issues.
